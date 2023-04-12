@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		65460DA929E67B4400790408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65460DA729E67B4400790408 /* Main.storyboard */; };
 		65460DAB29E67B4500790408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65460DAA29E67B4500790408 /* Assets.xcassets */; };
 		65460DAE29E67B4500790408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65460DAC29E67B4500790408 /* LaunchScreen.storyboard */; };
+		65460DB629E67BA700790408 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65460DB529E67BA700790408 /* SQLite.swift */; };
+		65460DB829E68A8600790408 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65460DB729E68A8600790408 /* ViewController2.swift */; };
+		65460DBA29E68B6E00790408 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65460DB929E68B6E00790408 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		65460DAA29E67B4500790408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65460DAD29E67B4500790408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65460DAF29E67B4500790408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65460DB529E67BA700790408 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		65460DB729E68A8600790408 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		65460DB929E68B6E00790408 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				65460DA329E67B4400790408 /* SceneDelegate.swift */,
 				65460DA529E67B4400790408 /* ViewController.swift */,
 				65460DA729E67B4400790408 /* Main.storyboard */,
+				65460DB929E68B6E00790408 /* MyTableViewCell.swift */,
+				65460DB729E68A8600790408 /* ViewController2.swift */,
+				65460DB529E67BA700790408 /* SQLite.swift */,
 				65460DAA29E67B4500790408 /* Assets.xcassets */,
 				65460DAC29E67B4500790408 /* LaunchScreen.storyboard */,
 				65460DAF29E67B4500790408 /* Info.plist */,
@@ -103,7 +112,7 @@
 				};
 			};
 			buildConfigurationList = 65460D9929E67B4400790408 /* Build configuration list for PBXProject "Exam Local Data Base" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65460DB829E68A8600790408 /* ViewController2.swift in Sources */,
 				65460DA629E67B4400790408 /* ViewController.swift in Sources */,
+				65460DB629E67BA700790408 /* SQLite.swift in Sources */,
 				65460DA229E67B4400790408 /* AppDelegate.swift in Sources */,
 				65460DA429E67B4400790408 /* SceneDelegate.swift in Sources */,
+				65460DBA29E68B6E00790408 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
